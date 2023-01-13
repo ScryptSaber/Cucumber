@@ -49,7 +49,7 @@ IDE - I used IntelliJ in my current framework.
 
 Page Object model - My framework used page object model according to which I created a separate classes for the pages of my application. All the pages are in pages folder.
 
-PageFactory design - a design which makes it easy to access the page object class. I created a Pages class that enables access to each pages by calling the related methods. Page Factory in Selenium is a built-in Page Object Model framework concept for Selenium WebDriver but it is highly optimised.
+PageFactory design - a design which makes it easy to access the page object class. I created a Pages class that enables access to each pages by calling the related methods. Page Factory in Selenium is a built-in Page Object Model framework concept for Selenium WebDriver but it is highly optimized.
 
 Singleton Driver - My frameworks use a singleton pattern to share the Web Driver instance between different classes.
 
