@@ -1,28 +1,36 @@
-### **Smartbearsoftware : Cucumber Selenium FrameWork**
+# ****Smartbearsoftware : Cucumber Selenium Framework****
 
-**Copyright/Licensing Information : READ LICENSE**
-Project source can be downloaded from : https://github.com/hamzaalictn/smartbearsoftware.git
 
-**Author**
-Abdullah Erdem Kamis
+## **Copyright/Licensing Information : READ LICENSE**
 
-**Aim**
+Project source can be downloaded from : https://github.com/ScryptSaber/Cucumber.git
+
+## **Author**
+
+### ***Abdullah Erdem Kamis***
+
+## **Aim**
+
 The Dover Fueling Solutions Assessment Project is created to provide an example of a test automation framework.
 
-**Test Executions**
+## **Test Executions**
+
 Prerequisites: Maven and Java installation
 
 In order to start the tests by using Maven in your local computer, you need to follow these steps:
 
-1) Download the project from : https://github.com/hamzaalictn/smartbearsoftware.git
+1) Download the project from : https://github.com/ScryptSaber/Cucumber.git
 2) Open the command prompt and cd until the project root directory
 3) Run the following command in the command prompt: mvn test
-   **Overview**
+
+## **Overview**
+   
    I've decided to create a sample Cucumber Framework and share my approach to creation from scratch. In this project I have worked on http://secure.smartbearsoftware.com/samples/testcomplete12/weborders website which is a public site developed by SmartBear Software for testing purposes. The tools, the design and the benefits are written below.
 
 This project should be treated as a continual work in progress. I hope this will help you to better understand Java and Selenium concepts, and Cucumber framework regardless of your current knowledge or interest level in test automation. Programming is one of my greatest joys and, if it isn't already one of yours, perhaps this will bring you one step closer.
 
-**Tools**
+## **Tools**
+
 Java - My framework is written using Java language, 8 version.
 
 Maven - My framework is created as a maven project, maven is a Java building application tool, in this project I have used maven to manage dependencies and also run our tests as mvn goals from terminal
@@ -37,10 +45,11 @@ Extent - My framework generates detailed Cucumber-html reports which makes it is
 
 IDE - I used IntelliJ in my current framework.
 
-**Design**
+## **Design**
+
 Page Object model - My framework used page object model according to which I created a separate classes for the pages of my application. All the pages are in pages folder.
 
-PageFactory design - a design which makes it easy to access the page object class. I created a Pages class that enables access to each pages by calling the related methods. Page Factory in Selenium is a built-in Page Object Model framework concept for Selenium WebDriver but it is highly optimised.
+PageFactory design - a design which makes it easy to access the page object class. I created a Pages class that enables access to each pages by calling the related methods. Page Factory in Selenium is a built-in Page Object Model framework concept for Selenium WebDriver but it is highly optimized.
 
 Singleton Driver - My frameworks use a singleton pattern to share the Web Driver instance between different classes.
 
@@ -49,8 +58,9 @@ Hooks - My framework has a Hook Class which are blocks of code that can run at v
 Configuration file - I used to store the important test data. Such as username, password, etc.
 
 Utilities - have reusable utilities that are being used from different classes of my framework.
+ 
+## **Benefits**
 
-**Benefits**
 Easy to maintain:
 My framework uses page object model which makes it easy to maintain. For example if i have to update any locator, I only need to do one code change. I try to make my tests independent from each other, this means if I update one test, it will not affect others and also if one fails, others will not be affected.
 
@@ -76,4 +86,4 @@ Page object class: homePage, loginPage variable: loginButton, signOutLink method
 
 NOTE : Test reports are intentionally loaded to remote repo for practice purposes.
 
-**_s m a r t b e a r s o f t w a r e_**
+## **_s m a r t b e a r s o f t w a r e_**
